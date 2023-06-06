@@ -1,0 +1,84 @@
+body{
+    background-color: #15191e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100%;
+}
+*{
+    color: #fbfffe;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 2em;
+    position: static;
+    left: 50%;
+    text-align: center;
+    font-family: 'Geologica', sans-serif;
+
+}
+main{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #fbfffe;
+    font-weight: light;
+}
+.menu-btn{
+    background-color: #d4cdf4;
+    background-color: #141414;
+    color: #2364aa;
+    border: none;
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+}
+
+.dropdown{
+    position: absolute;
+    top: 4em;
+    left: 2em;
+    text-align: left;
+}
+.dropdown-content {
+    display: none; /* Oculta la lista inicialmente */
+    margin: 1em;
+    border: 0.1em solid #000000;
+    border-top: none;
+
+
+  }
+  
+.dropdown-content.show {
+    display: block; /* Muestra la lista al hacer clic */
+  }
+
+li{
+    background-color: #141414;
+    border-top: 0.1em solid  #000000;
+    padding: 0.3em 5em 0.5em 0.1em;
+    
+}
+.card{
+    width: 100%;
+    padding: 1em;
+    text-align: justify;
+    font-family: 'Geologica', sans-serif;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: #141414;
+    text-align: center;
+    padding: 2em 0 2em 0;
+    font-size: small;
+}
+
+
+
+
+  
