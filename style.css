@@ -38,7 +38,7 @@ a {
 }
 
 .dropdown{
-    position: absolute;
+    position: fixed;
     top: 4em;
     left: 2em;
     text-align: left;
@@ -63,22 +63,31 @@ li{
     
 }
 .card{
-    width: 100%;
+    margin: 0.5em;
     padding: 1em;
+    background-color: #161e27;
     text-align: justify;
     font-family: 'Geologica', sans-serif;
     box-sizing: border-box;
+    width: 30em;
+    
 }
-
-
+.card img{
+    width: 100%;
+}
+.card figcaption{
+    padding-top: 2em;
+    
+}
+.hr-custom{
+    border: none;
+    border-top: 1px solid #000000; 
+}
 footer{
     background-color: #141414;
     text-align: center;
     padding: 2em 0 2em 0;
     font-size: small;
 }
-
-
-
 
   
